@@ -1,0 +1,10 @@
+[Unit]
+Description=Guicorn instance to run apptier
+After=network.target
+[Service]
+User=ec2-user
+WorkingDirectory=/home/ec2-user/CSE546-Cloud-Computing
+ExecStart=/home/ec2-user/python3-virtualenv/bin/python webtier.py
+Restart=always
+[Install]
+WantedBy=multi-user.target
