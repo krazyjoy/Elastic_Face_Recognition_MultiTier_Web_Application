@@ -1,5 +1,5 @@
 ## Elastic Face Recognition Application IaaS
-
+![architecture of IaaS](https://github.com/krazyjoy/Elastic_Face_Recognition_MultiTier_Web_Application/blob/main/images/iass_architecture.png)
 command for generating workload images
 
 ```angular2html
